@@ -1,0 +1,174 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  }
+h1 {
+  font-weight: normal;
+  font-size: 130%;
+  margin-bottom: 0;
+}
+h1 a {
+    text-decoration: none;
+}
+h2 {
+  font-weight: normal;
+  font-size: 120%;
+}
+table, td, tr, th {
+  border: 1px solid black;
+}
+#editor {
+  font-size: 16px;
+  }
+button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: large;
+    background-color: #eee;
+    color: #000;
+}
+button.secondary {
+    border: 1px solid #4d90fe;
+    background-color: #4d90fe;
+    color: #fff;
+}
+#runButton, #resetButton, #stepButton {
+  margin: 5px;
+  padding: 10px 20px 10px 10px;
+  font-size: large;
+  background-color: #dd4b39;
+  color: #fff;
+  border: 1px solid #dd4b39;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px #888;
+}
+#stepButton {
+  background-color: #3a89de;
+  border: 1px solid #3a89de;
+}  
+button>img {
+  vertical-align: text-bottom;
+}
+.run { background-position: -63px 0px; }
+.stop { background-position: -42px 0px; }
+.step { background-position: -84px 0px; }
+.icon21 {
+  height: 21px;
+  width: 21px;
+  background-image: url(media/icons.png);
+}
+#levelMenu {
+  display: inline-block;
+  margin-left: 40px; 
+}
+.level_dot {
+  border: solid 1px #ddd;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+.level_number {
+  border: solid 1px #ddd;
+  border-radius: 20px;
+  padding: 6px 12px;
+  color: #888;
+  display: inline-block;
+}
+.level_fill, .level_dot:hover, .level_number:hover {
+  background-color: #ddd;
+  color: #000;
+}
+.level_fill:hover {
+  background-color: #ccc;
+}
+.level_done, .level_done:hover {
+  background-color: #c2e6f0;
+  color: #000;
+}
+.level_medium, .level_medium:hover {
+  background-color: #65ada4;
+  color: #fff;
+}
+.level_best, .level_best:hover {
+  background-color: #294f99;
+  color: #fff;
+}
+#capacityBubble {
+  padding-bottom:5px; 
+}
+#capacity {
+  color: #fff;
+  padding: 5px 1em;
+  border-radius: 15px;
+  background-color: rgba(64,64,64,.7);
+  font-size: large;
+}
+.dialogMessage {
+  line-height: 150%;
+  font-size: 1.2em;
+}
+#visualization {
+  border: 1px solid black;
+  border-right: none;
+  height: 399px;
+}
+#sliderTrack {
+  stroke: #aaa;
+  stroke-width: 6px;
+  stroke-linecap: round;
+}
+#sliderKnob {
+  fill: #ddd;
+  stroke: #bbc;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+}
+select { font-size: 1em; }
+.link {
+  position: relative;
+  top: 5px;
+}
+.blocklyDisabled>.blocklyPath {
+  fill: url(#crosshatch);	
+  fill-opacity: 0.8;
+}
+.error {
+  color: red;	
+}
+.star {
+  margin-left: 5px;	
+  position: relative;
+  top: 3px;
+}
+#starDiv {
+  display: none;
+  margin-left: 15px;
+}
+#prevVar, #nextVar {
+  position:relative;
+  top:4px;
+  left:-3px;
+  display: none;
+  cursor: pointer;
+} 
+#nextVar {
+  left:4px;
+}
+#multimap {
+  color: #afafaf;
+  display: none;
+  position:relative;
+  top: 2px;
+  left: -38px;
+} 
+.contentLabel {
+  font-size: 20px;
+}
+.vesselLabel {
+  font-size: 22px;
+  font-weight: bold; 
+  fill: navy;
+}
